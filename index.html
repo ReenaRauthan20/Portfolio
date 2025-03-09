@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio of Ms. Reena Rauthan, Assistant Professor</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(to right, #c18f59, #385a94);
+        }
+
+        .fh5co-top-banner {
+            position: relative;
+            display: flex;
+            align-items: flex-end;
+            background-image: url('./background.jpg');
+            background-position: center;
+            background-size: cover;
+        }
+        .fh5co-top-banner::after {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: #124374;
+            opacity: 0.9;
+        }
+        .fh5co-top-banner .site-container {
+            position: relative;
+            z-index: 1;
+        }
+        .top-banner__inner {
+            display: flex;
+            align-items: center;
+        }
+        @media (max-width: 1250px) {
+            .top-banner__inner .top-banner__text {
+                width: 35%;
+            }
+        }
+        .brand-span {
+            font-size: 15px;
+            color: #456ea4;
+        }
+        * {
+            margin: 0;
+            padding: 0;
+            font-family: "Calisto-MT";
+        }
+        .top-banner__inner .top-banner__text-up .top-banner__h2 {
+            margin-top: 15px;
+        }
+        div {
+            display: block;
+            unicode-bidi: isolate;
+        }
+        @media (max-width: 1250px) {
+            .top-banner__inner .top-banner__h2 {
+                font-size: 25px;
+                letter-spacing: 5px;
+                color: #e9e175;
+                font-family: "bold";
+            }
+        }
+        .top-banner__inner .top-banner__text {
+            margin-left: 54px;
+        }
+        .hero {
+            background-image: url('background.jpg');
+            height: 300px;
+            background-size: cover;
+            color: white;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+        }
+        section {
+            margin: 20px;
+            padding: 20px;
+            background: #d9e0ea;
+            border-radius: 10px;
+            box-shadow: 0 4px 20px rgba(56, 49, 49, 0.2);
+            transition: transform 0.3s;
+        }
+        section:hover {
+            transform: scale(1.02);
+        }
+
+        .top-banner__h2 {
+            font-size: 3em;
+            display: block;
+            color:antiquewhite;
+            font-family: "bold";
+        }
+
+        h2 {
+            display: block;
+            font-size: 2em;
+            color:rgb(24, 33, 38);
+            margin-block-start: 0.83em;
+            margin-block-end: 0.83em;
+            margin-inline-start: 0px;
+            margin-inline-end: 0px;
+            font-weight: bold;
+            unicode-bidi: isolate;
+        }
+        footer {
+            text-align: center;
+            padding: 20px 0;
+            background: linear-gradient(to right, #053b9e, #c18f59);
+            color: #ffffff;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+            font-size: 14px;
+            border-top: 2px solid #ffffff;
+        }
+
+        a:hover {
+            color: #c18f59;
+            transition: color 0.3s ease;
+        }
+
+        @media (max-width: 1250px) {
+            .fh5co-top-banner {
+                padding-top: 130px;
+            }
+        }
+        @media (max-width: 1600px) {
+            .fh5co-top-banner {
+                padding-top: 180px;
+            }
+        }
+        .fh5co-top-banner {
+            position: relative;
+            display: flex;
+            align-items: flex-end;
+            background-image: url(background.jpg);
+            background-position: center;
+            background-size: cover;
+        }
+        * {
+            margin: 0;
+            padding: 0;
+            font-family: "Calisto-MT";
+        }
+
+        section {
+            display: block;
+            unicode-bidi: isolate;
+        }
+        .fh5co-top-banner::after {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: #000;
+            opacity: 0.9;
+        }
+
+        p{
+            font-size: 18px;
+            font-family: "Calisto-MT";
+        }
+
+    </style>
+</head>
+<body>
+    <header class="hero">
+        <div class="decorative-container">
+            <h1>Welcome to My Portfolio</h1>
+            <p>Hi! I'm Reena Rauthan, Assistant Professor</p>
+            </video>
+
+        </div>
+    </header>
+
+    <section class="fh5co-top-banner">
+        <div class="top-banner__inner site-container">
+            <div class="top-banner__image">
+                <img src="./reena.jpg" alt="author image" style="width:400px;height:auto; border: 5px solid #c18f59; border-radius: 10px; box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);">
+            </div>
+            <div class="top-banner__text">
+                <div class="top-banner__text-up">
+                    <span class="brand-span">Hello! I'm</span>
+                    <h2 class="top-banner__h2">Reena</h2>
+                </div>
+                <div class="top-banner__text-down">
+                    <h2 class="top-banner__h2">Rauthan</h2>
+                    <span class="brand-span">Developer, Designer, and Professor</span>
+                </div>
+                <p>Technology is a tool, and when we use it to solve real-world problems, we become problem-solvers and creators.</p>
+                <a href="#" class="brand-button" onclick="showBio()">Read bio > </a>
+            </div>
+        </div>
+    </section>
+   
+    <section>
+        <h2 class="decorative-heading">Academic Background</h2>
+        <p>MCA in Computer Application from Graphic Era University, 2021</p>
+        <p>BCA in Computer Application from Graphic Era Hill University, 2019</p>
+    </section>
+    
+    <section>
+        <h2 class="decorative-heading">Research Interests</h2>
+        <p>My research interests include exploring innovative teaching methodologies, integrating technology in education, and conducting studies on student engagement and learning outcomes. I am particularly focused on the impact of digital tools in enhancing the learning experience and fostering critical thinking skills among students.</p>
+
+        <!--<p>[Brief description of your research interests]</p>-->
+    </section>
+    
+    <section>
+        <h2 class="decorative-heading">Publications</h2>
+        <p>[Title of Publication 1], [Journal/Conference Name], [Year]. <a href="link_to_publication_1" onclick="showBio()" >View Paper</a></p>
+        <p>[Title of Publication 2], [Journal/Conference Name], [Year]. <a href="link_to_publication_2" onclick="showBio()">View Paper</a></p>
+    </section>
+    
+    <section>
+        <h2 class="decorative-heading">Teaching Experience</h2>
+        <p>Computer Science & Engineering Department - Bhagwant Global University, 2021</p>
+        <p>Computer Science & Engineering Department - Quantum University, 2021-22</p>
+        <p>Computer Science & Engineering Department - Institute of Innovation in Technology and Management, 2022-23</p>
+    </section>
+    
+    <section>
+        <h2 class="decorative-heading">Contact Me</h2>
+        <p>Email: <a href="reenarauthan20@gmail.com">reenarauthan20@gmail.com</a></p>
+        <p>Follow me on <a href="https://www.instagram.com/suzuka24x7?igsh=cmFmamtqY2Juc3c1">Instagram</a></p>
+    </section>
+    
+    <footer>
+        <p>&copy; 2025 Reena Rauthan. All rights reserved.</p>
+    </footer>
+
+    <script>
+        function showBio() {
+    alert("This is a brief bio about Reena Rauthan. More details can be added here.");
+    }
+
+    </script>
+
+</body>
+</html>
